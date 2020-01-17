@@ -1,3 +1,5 @@
 #!/bin/bash -e
 
-docker run -v "$(pwd)":/build -w /build northern/themekit:1.0 "$@"
+readonly DOCKER_IMAGE=northern/themekit:1.0
+
+docker pull -q "${DOCKER_IMAGE}" && docker run -v "$(pwd)":/build -w /build "${DOCKER_IMAGE}" "$@"
