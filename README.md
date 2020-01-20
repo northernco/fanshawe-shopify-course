@@ -44,16 +44,23 @@ Here are a few links to get you started:
 - [Adding an existing project to GitHub using the command line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
 ## Setting up an IDE
+The course lectures and workshops will be demoed using the VSCode IDE, but you are free to use any editor that you are comfortable with. Recommended extension are outlined below.
+
+To maintain consistent coding styles across various editors and IDEs, we have included an [`.editorconfig`](https://editorconfig.org/) file. Be sure to install an EditorConfig extension on your IDE.
 
 **VS Code**
 - [The 20 Best Visual Studio Code Extensions for Front End Developers](https://www.shopify.ca/partners/blog/best-visual-studio-code-extensions)
-- For this course, we recommend installing the following extensions:
+- At the very least, it is recommend to install the following extensions:
    - [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
    - [Shopify Liquid Snippets](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets)
    - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
    
 **Sublime**
-- [The 25 Best Sublime Text Plugins for Front End Developers ](https://www.shopify.ca/partners/blog/sublime-text-plugins-2018)
+- [The 25 Best Sublime Text Plugins for Front End Developers](https://www.shopify.ca/partners/blog/sublime-text-plugins-2018)
+- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
 
 **Atom**
 - [The 21 Best Atom Packages for Front End Developers](https://www.shopify.ca/partners/blog/best-atom-packages)
+- [EditorConfig](https://atom.io/packages/editorconfig)
+
+
