@@ -62,5 +62,3 @@ To maintain consistent coding styles across various editors and IDEs, we have in
 **Atom**
 - [The 21 Best Atom Packages for Front End Developers](https://www.shopify.ca/partners/blog/best-atom-packages)
 - [EditorConfig](https://atom.io/packages/editorconfig)
-
-
