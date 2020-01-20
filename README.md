@@ -3,6 +3,8 @@
 ## Prerequisites
 - Bash CLI
 - [Docker](https://docs.docker.com/install/)
+- [GitHub Account](https://github.com/)
+- IDE
 
 ## Download Quick Start Package
 
@@ -33,3 +35,30 @@ Full instructions can be found [[here]](https://shopify.github.io/themekit/#conf
 ## Using Theme Kit
 
 Theme Kit can be run using the `./theme` script in the project's root directory. A full list of commands can be found [[here]](https://shopify.github.io/themekit/commands/).
+
+## Setting up a GitHub account
+For this course, you are required to set up and maintain your own GitHub account and repository for your project.
+
+Here are a few links to get you started:
+- [Adding a new SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+- [Adding an existing project to GitHub using the command line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+
+## Setting up an IDE
+The course lectures and workshops will be demoed using the VSCode IDE, but you are free to use any editor that you are comfortable with. Recommended extension are outlined below.
+
+To maintain consistent coding styles across various editors and IDEs, we have included an [`.editorconfig`](https://editorconfig.org/) file. Be sure to install an EditorConfig extension on your IDE.
+
+**VS Code**
+- [The 20 Best Visual Studio Code Extensions for Front End Developers](https://www.shopify.ca/partners/blog/best-visual-studio-code-extensions)
+- At the very least, it is recommend to install the following extensions:
+   - [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
+   - [Shopify Liquid Snippets](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets)
+   - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+   
+**Sublime**
+- [The 25 Best Sublime Text Plugins for Front End Developers](https://www.shopify.ca/partners/blog/sublime-text-plugins-2018)
+- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
+
+**Atom**
+- [The 21 Best Atom Packages for Front End Developers](https://www.shopify.ca/partners/blog/best-atom-packages)
+- [EditorConfig](https://atom.io/packages/editorconfig)
