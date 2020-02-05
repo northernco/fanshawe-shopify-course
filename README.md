@@ -24,7 +24,7 @@ In the project, run the following to download the theme from your Shopify store 
 
 ```console
 $ chmod +x theme
-$ ./theme get --list -p=[your-password] -s=[you-store.myshopify.com]
+$ ./theme get --list -p=[your-password] -s=[your-store.myshopify.com]
 $ ./theme get -p=[your-password] -s=[you-store.myshopify.com] -t=[your-theme-id]
 ```
 
@@ -35,6 +35,11 @@ Full instructions can be found [[here]](https://shopify.github.io/themekit/#conf
 ## Using Theme Kit
 
 Theme Kit can be run using the `./theme` script in the project's root directory. A full list of commands can be found [[here]](https://shopify.github.io/themekit/commands/).
+
+#### 3 Ways to Get Your Theme ID
+1. your-store.myshopify.com/admin/themes.xml
+2. your-store.myshopify.com/admin/themes.json
+3. ./theme get --list -p=[your-password] -s=[you-store.myshopify.com]
 
 ## Setting up a GitHub account
 For this course, you are required to set up and maintain your own GitHub account and repository for your project.
@@ -54,11 +59,13 @@ To maintain consistent coding styles across various editors and IDEs, we have in
    - [Liquid Languages Support](https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid)
    - [Shopify Liquid Snippets](https://marketplace.visualstudio.com/items?itemName=killalau.vscode-liquid-snippets)
    - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-   
-**Sublime**
-- [The 25 Best Sublime Text Plugins for Front End Developers](https://www.shopify.ca/partners/blog/sublime-text-plugins-2018)
-- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
 
-**Atom**
-- [The 21 Best Atom Packages for Front End Developers](https://www.shopify.ca/partners/blog/best-atom-packages)
-- [EditorConfig](https://atom.io/packages/editorconfig)
+#### Configure File Associations
+- Update `settings.json` by searching for `Preferences: Open Settings (JSON)` and add the following:
+```
+"files.associations": {
+  "*.liquid": "liquid",
+  "*.scss.liquid": "scss",
+  "*.js.liquid": "js"
+},
+```
