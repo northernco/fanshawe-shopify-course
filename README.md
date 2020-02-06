@@ -25,7 +25,7 @@ In the project, run the following to download the theme from your Shopify store 
 ```console
 $ chmod +x theme
 $ ./theme get --list -p=[your-password] -s=[your-store.myshopify.com]
-$ ./theme get -p=[your-password] -s=[you-store.myshopify.com] -t=[your-theme-id]
+$ ./theme get -p=[your-password] -s=[your-store.myshopify.com] -t=[your-theme-id]
 ```
 
 The password can be obtained by creating a private app in your Shopify store [[gif]](https://shopify.github.io/themekit/assets/images/shopify-local-theme-development-generate-api.gif). The theme ID can be obtained from the `./theme get --list` command.
