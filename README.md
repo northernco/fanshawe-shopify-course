@@ -36,10 +36,14 @@ Full instructions can be found [[here]](https://shopify.github.io/themekit/#conf
 
 Theme Kit can be run using the `./theme` script in the project's root directory. A full list of commands can be found [[here]](https://shopify.github.io/themekit/commands/).
 
-#### 3 Ways to Get Your Theme ID
-1. your-store.myshopify.com/admin/themes.xml
-2. your-store.myshopify.com/admin/themes.json
-3. ./theme get --list -p=[your-password] -s=[you-store.myshopify.com]
+#### 4 Ways to Get Your Theme ID
+1. From the URL
+   - Go to your-store.myshopify.com/admin/themes select "Edit Code" from the "Actions" dropdown next to the theme
+   - The ID should be in the URL of this page
+   - e.g. your-store.myshopify.com/admin/themes/**80643031095**
+2. your-store.myshopify.com/admin/themes.xml
+3. your-store.myshopify.com/admin/themes.json
+4. ./theme get --list -p=[your-password] -s=[you-store.myshopify.com]
 
 ## Setting up a GitHub account
 For this course, you are required to set up and maintain your own GitHub account and repository for your project.
