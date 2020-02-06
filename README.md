@@ -43,7 +43,7 @@ Theme Kit can be run using the `./theme` script in the project's root directory.
    - e.g. your-store.myshopify.com/admin/themes/**80643031095**
 2. your-store.myshopify.com/admin/themes.xml
 3. your-store.myshopify.com/admin/themes.json
-4. ./theme get --list -p=[your-password] -s=[you-store.myshopify.com]
+4. ./theme get --list -p=[your-password] -s=[your-store.myshopify.com]
 
 ## Setting up a GitHub account
 For this course, you are required to set up and maintain your own GitHub account and repository for your project.
