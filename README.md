@@ -70,6 +70,6 @@ To maintain consistent coding styles across various editors and IDEs, we have in
 "files.associations": {
   "*.liquid": "liquid",
   "*.scss.liquid": "scss",
-  "*.js.liquid": "js"
+  "*.js.liquid": "javascript"
 },
 ```
