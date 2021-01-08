@@ -45,12 +45,6 @@
   - collections.winter-blankets.products
 {% endcomment %}
 
-{% comment %}
-  EmptyDrop
-  - is returned if you try to access a deleted object (such as a page or post) by its handle.
-{% endcomment %}
-{% assign emptyPage = pages.some-handle-that-does-not-exist %}
-
 <h3>Whitespace Control</h3>
 {% comment %}
 you can include a hyphen in your tag syntax {{- , -}}, {%-, and -%} to strip whitespace from the left or right side of a rendered tag.
@@ -126,11 +120,6 @@ Determine whether blocks of code are executed or not depending on the situation.
     {{ page.content }}
   {% endif %}
 {% endcomment %}
-
-{%- comment -%}
-  An EmptyDrop is also truthy.
-  - An EmptyDrop object is returned if you try to access a deleted object (such as a page or post) by its handle.
-{%- endcomment -%}
 
 <h3>Iteration Tags</h3>
 {%- comment -%}
